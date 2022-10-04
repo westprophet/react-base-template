@@ -1,0 +1,40 @@
+@import './styles-rewrite.scss';
+@import './variables.scss';
+
+body{
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+button:focus {
+  outline:none;
+}
+
+a{
+  *{
+    color: inherit;
+    font-family: 'Roboto', sans-serif;
+  }
+  color: inherit;
+  &:hover{
+    color: inherit;
+  }
+}
+*{
+  box-sizing: border-box;
+}
+legend {
+  width: min-content;
+}
+.page-wrapper > .page-content{
+  padding: 10px 10px 5px 10px!important;
+}
+
+
+h1.main-h1{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35px;
+  color: var(--action-color);
+}
